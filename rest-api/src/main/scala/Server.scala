@@ -6,6 +6,8 @@ object Server {
     unfiltered.netty.Server.http(8080)
       .handler(Palindrome)
       .handler(Time)
+      .handler(Numbers)
+      .handler(Health)
       .run { s =>
         unfiltered.util.Browser.open(s.portBindings.head.url + "/time")
       }
