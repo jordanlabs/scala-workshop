@@ -1,6 +1,6 @@
 organization := "com.example"
 
-name := "Rental Api"
+name := "Rest Api"
 
 val unusedWarnings = (
   "-Ywarn-unused" ::
