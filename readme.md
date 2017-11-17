@@ -1,5 +1,7 @@
 # Scala Workshop
 
+[![Build Status](https://travis-ci.org/jordanlabs/scala-workshop.svg?branch=master)](https://travis-ci.org/jordanlabs/scala-workshop)
+
 ## Endpoints
 
 ```
